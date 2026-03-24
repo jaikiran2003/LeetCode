@@ -6,9 +6,7 @@ public:
             return 0;
         }
         int p = 1;
-        for (int i = 0; i < nums.size()
-        
-        ; i++){
+        for (int i = 0; i < nums.size(); i++){
             if(nums[i] != nums[p - 1]){
                 nums[p] = nums[i];
                 p++;
